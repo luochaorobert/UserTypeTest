@@ -1,0 +1,9 @@
+﻿@page
+@using Microsoft.Extensions.Localization
+@using UserTypeTest.Localization
+@model UserTypeTest.Web.Pages.UserTypeTest.IndexModel
+@inject IStringLocalizer<UserTypeTestResource> L
+@{
+}
+<h1>UserTypeTest</h1>
+<p>@L["SamplePageMessage"]</p>
